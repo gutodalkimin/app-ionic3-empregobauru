@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "196336474354",
+    "firebase_url": "https://emprebauru.firebaseio.com",
+    "project_id": "emprebauru",
+    "storage_bucket": "emprebauru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196336474354:android:0a6fa8723147baff",
+        "android_client_info": {
+          "package_name": "com.empregobaru.gutodalkimin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196336474354-fh0kp0nqqvlv4u1bl08llt50pudue93n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4jDMPmAHtx2x7c2gdZdLOIU7_03B2vTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

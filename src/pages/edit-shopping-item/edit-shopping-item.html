@@ -1,0 +1,44 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Edit: {{shoppingItem.itemName}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+<ion-card>
+  <ion-card-header>{{shoppingItem.itemName}}</ion-card-header>
+  <ion-card-content>
+      {{shoppingItem.itemDesc}}
+      <br>
+      <br>
+      <ion-icon name="calendar"> {{shoppingItem.itemNumber}}</ion-icon>
+      <br>   
+      <ion-icon name="cash"> {{shoppingItem.itemValor}}</ion-icon>
+      <br>
+      <ion-icon name="mail"> {{shoppingItem.itemEmail}}</ion-icon>
+  </ion-card-content>
+</ion-card>
+
+</ion-content>
+
+<!--
+<ion-content padding>
+
+  <ion-item>
+    <ion-label floating>{{shoppingItem.itemName}}</ion-label>
+
+  </ion-item>
+  <ion-item>
+    <ion-label floating>{{shoppingItem.itemNumber}}</ion-label>
+  </ion-item>
+  <br>
+
+  <div text-center>
+    <button ion-button (click)="editShoppingItem(shoppingItem)">Edit Item</button>
+  </div>
+
+</ion-content>
+-->
